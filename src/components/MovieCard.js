@@ -7,6 +7,7 @@ export default class MovieCard extends React.Component {
     return (
     <div>
       <img src={ imagePath }></img>
+      <h4>{ title }</h4>
     </div>
     );
   }
